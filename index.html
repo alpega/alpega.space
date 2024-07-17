@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpega - Cosmic Digital Frontiers</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Mono&display=swap');
+        
+        body {
+            font-family: 'Space Mono', monospace;
+            line-height: 1.6;
+            color: #00ff00;
+            background-color: #000033;
+            background-image: 
+                radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+                radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+                radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+                radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+            background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+            background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            border-bottom: 2px solid #00ff00;
+        }
+        h1, h2 {
+            font-family: 'Orbitron', sans-serif;
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .project {
+            background-color: rgba(0, 0, 51, 0.7);
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+        }
+        .project h2 {
+            border-bottom: 2px solid #00ff00;
+            padding-bottom: 10px;
+        }
+        .cta {
+            display: inline-block;
+            background-color: #00ff00;
+            color: #000033;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .cta:hover {
+            background-color: #00ffff;
+            box-shadow: 0 0 20px #00ffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ALPEGA</h1>
+            <p>Exploring Cosmic Digital Frontiers</p>
+        </header>
+
+        <main>
+            <div class="project">
+                <h2>Pixelflux</h2>
+                <p>Enter a revolutionary digital space where you can claim ownership of pixel layers. Customize colors on your owned top layers and watch as your pixels evolve through collaborative creation.</p>
+                <p>As new layers are added, witness the value of your pixels increase, and participate in a unique economic ecosystem where payments are distributed among all layer owners.</p>
+                <a href="https://pixelflux.io/" class="cta">Explore Pixelflux</a>
+            </div>
+            <div class="project">
+                <h2>Geocats</h2>
+                <p>Embark on a 2D action-platformer adventure in the mysterious world of Geoterra. Join the Geocats, a talented group of feline explorers, as they search for precious geocaches and uncover the truth behind the creepy monster-cats threatening their peaceful realm.</p>
+                <p>Do you have what it takes to restore peace to Geoterra?</p>
+                <a href="https://geocats.netlify.app/" class="cta">Play Geocats</a>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>
